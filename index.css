@@ -1,0 +1,163 @@
+*{
+    
+}
+body{
+    border:-1px solid lightgray;
+    padding: 95px;
+    width: 400px;
+     height: 270px;
+     margin: auto; 
+    font-size: x-large;
+    margin-top: 300px;
+    border-style:ridge; 
+    font-family:Arial, Helvetica, sans-serif ;
+}
+.container h1 {
+    position:relative;
+    top:-120px ;
+    left: -80px;
+}
+
+#main {
+    position: relative;
+    top: -150px;
+    left: -80px;
+    font-size: smaller;
+}
+
+.emailinput {
+    position: relative;
+    top: -140px;
+    left: -80px;
+    width: 550px;
+    height: 40px;
+    border: solid lightgrey;
+    border: inset;
+    font-size: large;
+}
+
+#password {
+   font-size: smaller;
+   position: relative;
+   top: -85px;
+   left: -20px;
+  
+}
+
+#pass {
+    position: relative;
+    top: -70px;
+    left: -80px;
+    width: 550px;
+    height: 40px;
+    border: solid lightgrey;
+    border: inset;
+    font-size: large;
+}
+
+#continue {
+    background-color: rgb(247, 194, 96);
+    width: 560px;
+    height: 50px;
+    position: relative;
+    top: -30px;
+    left: -80px;
+    font-size: xx-large;
+}
+
+#forgot { 
+    position: relative;
+    top: -85px;
+    left: 180px;
+}
+
+#help {
+    position: relative;
+    top: -5px;
+    left: -30px;
+    
+}
+
+#new {
+    position: relative;
+    top: 60px;
+    left: 110px;
+     width: 60%; 
+    
+}
+#new:before{
+    content: "";
+    display:block ;
+    width: 175px;
+    height: 2px;
+    background: lightgrey;
+    position: absolute;
+    left: -180px;
+    top: 50%;
+
+}
+
+#new:after{
+    content: "";
+    display:block ;
+    width: 175px;
+    height: 2px;
+    background: lightgrey;
+    position: absolute;
+    right: -180px;
+    top: 50%;
+
+}
+
+#create {
+    background-color: rgb(226, 231, 246);
+    position: relative;
+    top: 80px;
+    left: -70px;
+    width: 545px;
+    height: 50px;
+    font-size: x-large;
+}
+footer{
+    border-top:  solid lightgrey; 
+    position: relative;
+    top: 160px;
+    width: 592%;
+    left: -1000px;
+}
+    
+
+#use {
+    position: relative;
+    font-size: smaller;
+    left: 1040px;
+    top: 80px ;
+}
+#policy {
+    position: relative;
+    font-size: smaller;
+    left: 1040px;
+    top: 80px;
+}
+#linkhelp {
+    position: relative;
+    font-size: smaller;
+    left: 1040px;
+    top: 80px ;
+}
+
+#copy {
+    font-size: smaller;
+    position: relative;
+    top: 120px;
+    left: 680px;
+}
+
+.img{
+    position:relative;
+    padding: 0;
+    top: -900px;
+    left: -50px;
+    background: none;
+    
+}
